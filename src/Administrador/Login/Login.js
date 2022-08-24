@@ -111,7 +111,7 @@ export function Login() {
    
 
   
-            <div className ="boton-login login">
+            <div className ="">
             <br></br>
             <button className="btn-login" type="submit"  onClick={ ()=>MostrarAlerta()}    >   
               <span>Entrar</span>
