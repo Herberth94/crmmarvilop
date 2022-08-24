@@ -1,0 +1,469 @@
+
+    
+    .main-menu {
+        position: fixed;
+        z-index: 1;
+        height: 100vh;
+        top: 0;
+        left:0;
+        width:60px;
+        overflow:hidden;
+        -webkit-transition:width .05s linear;
+        transition:width .05s linear;
+        z-index:101;
+        backdrop-filter: blur(15px);
+        /*background-color:   #3639A4;
+        */background-color:   var(--color-principal);
+        float: left;
+        -moz-transition:width .05s linear;
+        -ms-transition:width .05s linear;
+        -o-transition:width .05s linear;
+        border-right:  solid  3px rgb(117, 125, 153);
+
+}
+   /*  color letras menu */
+span.nav-text{
+    color: var(--color-iconos);
+}
+span.nav-text:hover{
+    color: #000000;
+}
+.has-subnav i{
+  color: var(--color-iconos);
+ }
+    
+
+ 
+
+   /*  COLOR BACKGROUND SELECT */
+   .main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
+    color:white;
+    background:  var(--color-detalles);
+    }
+
+ .has-subnav:hover i{
+  color: var(--color-secundario);
+ }
+    
+
+    .logo i{
+        color: #ffffff;
+    }
+    
+    .logout i{
+        color: #ffffff;
+    }
+    
+    
+    
+    .fa-2x {
+    font-size: 2em;
+    }
+    .fa , .bi{
+    position: relative;
+    display: table-cell;
+    width: 60px;
+    height: 36px;
+    text-align: center;
+    vertical-align: middle;
+    font-size:20px;
+    }
+    
+    .main-menu:hover,nav.main-menu.expanded {
+    width:250px;
+    overflow:visible;
+    }
+    
+    
+    
+    .main-menu>ul {
+    margin:7px 0;
+    }
+    
+    .main-menu li {
+    position:relative;
+    display:block;
+    width:250px;
+    
+    }
+    
+    .main-menu li>a {
+    position:relative;
+    display:table;
+    border-collapse:collapse;
+    border-spacing:0;
+    
+     font-family: arial;
+    font-size: 14px;
+    text-decoration:none;
+    -webkit-transition:all .1s linear;
+    transition:all .1s linear;
+    text-align: justify;
+    }
+    
+    .main-menu .nav-icon {
+    position:relative;
+    display:table-cell;
+    width:60px;
+    height:36px;
+    text-align:center;
+    vertical-align:middle;
+    font-size:18px;
+    }
+    
+    .main-menu .nav-text {
+    position:relative;
+    display:table-cell;
+    vertical-align:middle;
+    width:190px;
+      font-family: 'Titillium Web', sans-serif;
+    }
+    
+    .main-menu>ul.logout {
+    position:fixed;
+    display: flex;
+    left:0;
+    bottom:0;
+    
+    }
+    
+    
+    a:hover,a:focus {
+    text-decoration:none;
+    }
+    
+    nav {
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+    }
+    
+    nav ul,nav li {
+    outline:0;
+    margin:0;
+    padding:0;
+    }
+    .area {
+    float: left;
+    width: 100%;
+    height: 100%;
+    }
+    
+    
+    
+    .administrador-user{
+   
+      margin-bottom: 30px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    /*============== OPTIONS VENTANA ==============*/
+    #rol:hover{
+        background-color: var( --administrador-bg-color);
+        color: white;
+        }
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        @media screen and (max-width: 960px) {
+            /*=======================Menú Desplegado =============================*/
+          
+            .nav-links1:hover h2 {
+              font-size: 18px;
+              color: rgb(255, 255, 255);
+              background-color: #b0b3b2;
+            }
+          
+            .nav-links-mobile {
+              display: none;
+            }
+          
+            .menu-icon1 {
+              display: none;
+            }
+          
+            /*===================Responsive==========================*/
+          
+            @media screen and (max-width: 960px) {
+              .NavbarItems1 {
+                position: relative;
+              }
+          
+              /*===================Menú Movil==========================*/
+          
+              .nav-menu1 {
+                position: absolute;
+                flex-direction: column;
+                width: 100%;
+                height: calc(100vh - 60px);
+                top: 0px;
+                left: -100%;
+                opacity: 1;
+                transition: all 0.5s ease;
+                background: #f0efe3;
+                z-index: 101;
+          
+                /*========================Menú Activo=================================*/
+              }
+          
+              .nav-menu1.active {
+                position: fixed;
+                background-color: var(--principal-color_4);
+                width: 100%;
+                left: 0;
+                opacity: 1;
+                transition: all 0.5s ease;
+                z-index: 3;
+                top: 0px;
+        
+                
+              }
+    
+               /*========================Texto Menú ================================*/
+          .nav-links1 {
+            text-align: center;
+            padding: 2rem;
+            width: 100%;
+            display: table;
+            color: #ffffff;
+          }
+          /*========================Cambio de Color Menú========================*/
+      
+          /*=====================Tamaño Logo Movil=============================*/
+      
+          /*===================Texto Menú==========================*/
+          .nav-links1 {
+            text-align: center;
+            padding: 2rem;
+            width: 100%;
+            display: table;
+            color: #ffffff;
+          }
+      
+          /*===================Tamaño Logo Movil==========================*/
+      
+          .navbar1 .navbar-logo1 img {
+            position: absolute;
+            padding: 10px;
+            left: 0%;
+            top: 0;
+            width: 150px;
+            height: 60px;
+            bottom: 0px;
+          }
+      
+          /*========================Menú Movil Icono=============================*/
+          .menu-icon1 {
+            position: relative;
+            display: block;
+            right: 20px;
+            bottom: 20px;
+            font-size: 1.8rem;
+            cursor: pointer;
+            -webkit-transform: translate(-100%, 50%);
+            -moz-transform: translate(-100%, 50%);
+            -ms-transform: translate(-100%, 50%);
+            -o-transform: translate(-100%, 50%);
+            transform: translate(-100%, 50%);
+          }
+          /*========================Color Icono=============================*/
+    
+    
+          .menu-icon1 {
+            position: relative;
+            display: block;
+            right: 20px;
+            bottom: 20px;
+            font-size: 1.8rem;
+            cursor: pointer;
+            -webkit-transform: translate(-100%, 50%);
+            -moz-transform: translate(-100%, 50%);
+            -ms-transform: translate(-100%, 50%);
+            -o-transform: translate(-100%, 50%);
+            transform: translate(-100%, 50%);
+          }
+      
+           /*===================Color Icono==========================*/
+          .bi-list {
+            position: absolute;
+            color: #ffc52f;
+            font-size: 2rem;
+            margin: 0 auto;
+            padding: 0 auto;
+          }
+    
+          .nav-links-mobile1 {
+            display: block;
+            text-align: center;
+            padding: 1.5rem;
+            margin: 2rem auto;
+            width: 80%;
+            background-color: #ffc52f;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-size: 1.5rem;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -ms-border-radius: 4px;
+            -o-border-radius: 4px;
+            border-radius: 4px;
+            z-index: 4;
+          }
+      
+          .nav-links-mobile1:hover {
+            color: #0d0d0d;
+            transition: 250ms;
+            font-weight: bold;
+          }
+    
+    
+    
+    
+      #menu ul li {
+        height: 60px;
+      }
+      
+      #menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      #menu ul a {
+        display: block;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 15px;
+        padding: 10px;
+        letter-spacing: 1px;
+      }
+      
+      #menu ul li {
+        position: relative;
+        float: left;
+        margin: 0;
+        padding: 0;
+
+      }
+      
+      #menu ul li:hover {
+        background: var(--principal-color_1);
+        color: #000000;
+      }
+      
+      #menu ul ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        padding: 0;
+      }
+      
+      #menu ul ul li {
+        float: none;
+        width: 160px;
+      }
+      
+      #menu ul ul a {
+        line-height: 120%;
+      }
+      
+      #menu ul li:hover > ul {
+        display: block;
+      }
+    
+    
+        }
+      }
+      
+      
+
+
+      
+
+.false{
+    /*background-color: var(--color-detalles);
+    */border-bottom: 3px solid   var(--color-detalles);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+
+    transition-duration: 3s;
+}
+
+.true{
+
+  border-bottom: 3px solid   rgba(139, 139, 139, 0.322);
+
+}
+
+
+
+    .icon{
+        background-color: #00000000;
+        border: none;
+    }
+
+
+    .titulo h2{
+        text-align: center;
+    }
+          
+.personal{
+    position: absolute;
+    top: 200px;
+    width: calc(100% - 60px);
+    left: 60px;
+}
+
+
+.personal.anidado{
+    position: absolute;
+    top: 100px;
+    width: calc(100%);
+    left: 0px;
+    padding: 10px;
+
+    background-color: #00000018;
+}
+
+
+#daTable{
+  
+ width: 100%;
+}
+
+
+.nav-text.logo{
+
+  font-size: 20px;
+  text-align: left;
+
+  font-weight: bolder;
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 960px) {
+
+
+
+}
+

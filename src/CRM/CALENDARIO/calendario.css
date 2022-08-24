@@ -1,0 +1,5 @@
+.calendario{
+    margin-left: 60px;
+    width: calc(100% - 60px);
+    text-align: center;
+}

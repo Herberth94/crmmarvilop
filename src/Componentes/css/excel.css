@@ -1,0 +1,43 @@
+.plantilla-excel{
+    width: 100%;
+    padding: 20px;
+}
+
+.subir-datos , .cargar-datos{
+    padding:  0px 50px;
+}
+
+input.formato-input{
+
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    padding: 1px;
+font-size: 12px;
+}
+
+
+td.datos{
+    background-color: rgb(253, 139, 0);
+}
+
+td.numericos{
+    background-color: aquamarine;
+}
+
+td.adicionales{
+    background-color: brown;
+}
+
+
+input.fase2{
+
+    border-radius: 0px;
+
+
+    padding: 2px;
+}

@@ -1,0 +1,28 @@
+.oportunidades{
+    position: relative;
+    width: calc(100%  - 60px);
+    margin-left: 60px;
+    text-align: center;
+}
+
+.gmail{
+    width: 50%;
+    float: left;
+   padding: 1%;
+
+}
+
+.correos{
+    width: 40%;
+    float: left;
+    padding: 1%;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    margin-left: 2%;
+
+}
+
+
+.detalles{
+    width: 100%;
+    height: 200px;
+}

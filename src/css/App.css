@@ -1,0 +1,377 @@
+
+div.selectCliente{
+  content: '>';
+  background-color: var(--color-principal);
+  color: aliceblue;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+
+  padding: 2px;
+}
+
+  
+div.selectCliente:hover{
+  background-color:#0091ff;
+  color: rgb(255, 255, 255);
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  padding: 2px;
+}
+
+.espacio{
+
+  width: 100%;
+  height: 200px;
+  background-color: #ffffff;
+}
+
+
+
+
+.padding{
+
+  padding: 40px;
+}
+
+
+
+
+
+th.listacl {
+  width: 200px;
+}
+
+
+   table.makeStyles-table-2.responsiveTable{
+    position:absolute;
+    width: 100%;
+    left: 0px;
+    height: 10px;
+   }
+
+   
+   .btn.btn-primary.Excel{
+background-color: #116b20;
+   }
+
+   .btn.btn-primary.Excel:hover{
+    background-color: #18992d;
+       }
+
+
+
+.contenido-usuarios.ok{
+position: relative;
+}
+
+
+#combo-box{
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  height: 100%;
+  padding: 0px   2px  2px;
+  margin: 5px;
+}
+
+
+
+
+th.agregar{
+  font-weight: 100;
+  font-size: 10px;
+
+  
+}
+
+
+.MuiBox-root{
+  background-color: #ffffff;
+
+
+}
+
+
+
+:root {
+
+   --color-principal:#001524;
+ --color-secundario: #15616d;
+ --color-fondo:#ffecd1;
+ --color-detalles: #ff7d00;
+ --color-iconos:#fff;
+
+ 
+  --administrador-body-color: rgb(255, 255, 255);
+
+  /* Color Menu Lateral */
+  --administrador-tablas-color: rgb(255, 255, 255);
+
+  /*   Color Menu Administrador  */
+  /* Color Menu Lateral */
+  --administrador-bg-color: rgb(2, 34, 77);
+  /* 
+  Coor Hover Menu lateral
+   */
+  --administrador-hover-color: rgb(15, 82, 170);
+  /* Color Texto Menu lateral
+    */
+  --administrador-texto-color: rgb(255, 255, 255);
+
+  /* Color Iconos Menu */
+  --administrador-menu-color: rgb(255, 255, 255);
+
+  /* Color Icono Salir */
+  --administrador-salir-color: rgb(255, 0, 0);
+
+  --resetear-bg-color: rgb(2, 34, 77);
+  --resetear-hover-color: rgb(60, 98, 180);
+
+  --modificar-bg-color: rgb(41, 92, 17);
+  --modificar-hover-color: rgb(16, 19, 16);
+
+  --modificar2-bg-color: rgb(17, 75, 92);
+  --modificar2-hover-color: rgb(0, 131, 113);
+
+  --cancelar-bg-color: rgb(185, 0, 0);
+  --cancelar-hover-color: rgb(255, 0, 0);
+
+  --ver-bg-color: rgb(63, 15, 21);
+  --ver-hover-color: rgb(115, 0, 160);
+
+  --busqueda-bg-color: rgba(0, 0, 0, 0);
+  --busqueda-hover-color: rgb(0, 44, 80);
+
+  --titulo-bg-color: rgb(75, 255, 225);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input { 
+  border-radius:0px ;
+   -webkit-border-radius:0px ; 
+   -moz-border-radius:0px ;
+    -ms-border-radius:0px ;
+     -o-border-radius:0px ;
+}
+
+/* body {
+
+  background-color: var(--administrador-body-color);
+   background: url("../images/Cotizador.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+} */
+
+
+h1,h2 h3,h4,h5 ,p{
+ padding: 2px;
+ font-family: Arial, Helvetica, sans-serif;
+ 
+
+}
+
+
+
+
+
+.btn:active {
+  transform: translateY(-1px);
+}
+
+.btn.btn-primary.PDF {
+  background-color: rgb(134, 0, 0);
+}
+
+.btn.btn-primary.PDF:hover {
+  background-color: rgb(189, 0, 0);
+}
+
+select {
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  height: 25px;
+  text-align: center;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 20px;
+  border: 1px solid rgb(8, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  
+}
+
+::placeholder {
+  text-align: center;
+}
+th,
+td {
+  text-align: center;
+}
+.re-Captcha {
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-left: 60px;
+}
+
+.visible {
+  display: none;
+}
+
+.visible2 {
+  display: inline-block;
+}
+/* ================================== Transparencia fondo menus ==================================*/
+
+@media screen and (max-width: 960px) {
+
+  th.listacl {
+    width: 100%;
+  }
+
+
+  .busqueda-proyectos {
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    width: calc(100% - 60px);
+    left: 60px;
+    background-color: var(--administrador-bg-color);
+  }
+
+ /*  body {
+     background: url("../images/Cotizador.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: var(--administrador-body-color);
+    
+  } */
+
+
+  td{
+    padding: 0px 0px;
+    letter-spacing: 0px;
+
+  }
+
+
+  input {
+    width: 200px;
+  }
+
+  .contenido-main-registro {
+    margin-left: 100px;
+  }
+
+}
+
+
+
+
+.header{
+  position: fixed;
+  background-color: #001524;
+  height: 50px;
+  width: 100%;
+  top: 0px;
+  z-index: 2;
+}
+.menu{
+  z-index: 10;
+  background-color: rgba(240, 248, 255, 0.13);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+  margin-right: -100px;
+
+}
+
+li{
+  color: aqua;
+}
+
+.buscador{
+  position: fixed;
+  top: 10px;
+  width: 20%;
+  margin-left: 150px;
+  text-align: center;
+
+}
+
+.buscador input{
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.iconos i{
+  color: aliceblue;
+}
+
+.iconos nav {
+
+	float: right;
+  margin-top: -20px;
+
+}
+	.iconos nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		.iconos nav ul li {
+			display: inline-block;
+			line-height: 0px;
+		}
+			
+			.iconos nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+			
+
+.boton-login.login{
+  display: flex;
+ 
+  margin: 0 auto;
+  padding: 0 auto;
+  justify-content: center;
+
+
+}

@@ -1,0 +1,88 @@
+.task{
+position:relative;
+background-color: rgb(243, 243, 243);
+margin-left: 0px;
+width: calc(100% - 0px);
+height: 100%;
+}
+
+.proyectos-crm{
+    margin: 1%;
+}
+
+.caja{
+    width: calc(100% - 60px);
+}
+
+.epicas{
+width: 19%;
+float: left;
+background-color: rgba(216, 216, 216, 0.842);
+margin: 1%;
+
+}
+
+.actividades{
+    float: left;
+    width: calc( 67% );
+    background-color: rgba(21, 124, 221, 0.178);
+    left: 0px;
+    margin: 1%;
+ }
+
+ .ajustes{
+    float: left;
+    background-color: rgba(216, 216, 216, 0.842);
+    width:calc(8% );
+    margin: 1%;
+ }
+
+
+ .boton-epicas{
+    display: flex;
+    border: none;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1%;
+
+  
+
+ }
+
+ .task h2{
+
+    text-align: center;
+ }
+
+ .agregar  {
+    background-color: aliceblue;
+    width: 100%;
+
+    border: 1px solid rgba(0, 0, 0, 0.363);
+
+ }
+
+ 
+.boton-epicas {
+font-size: 12px;
+ }
+
+ .epicas h3, .actividades  h3 , .ajustes h3{
+    font-size: 12px;
+    text-align: left;
+    padding: 0px 20px;
+ }
+
+
+
+ .tareas{
+    font-size: 10px;
+    padding: 0px 0px 0px;
+ }
+
+
+
+ .table-responsive.active{
+    background-color: blue;
+ }
+

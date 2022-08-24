@@ -1,0 +1,293 @@
+.solucion{
+  width: 100%;
+  left: 0px;
+  position: absolute;
+
+}
+
+
+.ppp{
+  position: absolute;
+
+}
+
+.menu2{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+
+}
+
+input:disabled {
+  background: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.219);
+}
+
+
+
+input , td{
+  text-align: center;
+  justify-content: center;
+
+}
+
+div.tdBefore , td.pivoted{
+  text-align: center;
+  justify-content: center;
+
+}
+
+.buscador-inteligente{
+    position: fixed;
+    z-index: 100;
+    justify-content: end;
+    right: 20px;
+    top: 0;
+    top: 10px;
+    }
+    
+    .administracion{
+      position: absolute;
+      top: 0px;
+      width: 100%;
+      left: 0px;
+      padding: 0px 20px;
+      animation-duration: 2s;
+      animation-name: slidein;
+}
+
+
+.administracion2{
+
+  animation-duration: 2s;
+  animation-name: slidein2;
+}
+
+
+@keyframes slidein2 {
+  from {
+    margin-left: 100%;
+    width: 300%
+ 
+   
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%; 
+
+
+
+
+  }
+}
+
+
+
+@keyframes slidein {
+  from {
+  /*   margin-left: 100%;
+    width: 300%
+ */
+
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+  }
+
+  to {
+   /*  margin-left: 0%;
+    width: 100%; */
+
+
+
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+
+    .menu-principal{
+      position: fixed;
+       width: 100%;
+       z-index: 10;
+    }
+    
+
+
+    .btn.btn-primary.Mod{
+
+width: 90%;
+    }
+
+
+
+
+    .contenido-marvilop{
+        width: 100%;
+        position: relative;
+        padding: 20px  ;
+        top: 0px;
+      
+    }
+
+    
+
+ 
+
+  .contenido-responsive.hijo{
+  display: flex;
+    left: 0;
+    width: 100%;
+    padding: 20px  ;
+
+    background-color: rgba(0, 0, 0, 0.897);
+}
+
+
+    .cate{
+      width: 100%;
+      position: relative;
+      top: 100px;
+      z-index: 10;
+      padding: 20px;
+    }
+    
+.arregla.multiple{
+
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    margin: 0px;
+    top: 100px;
+     }
+
+     .buscar-servicios{
+     padding: 20px;
+     }
+
+
+
+     .super-t{
+      position: relative;
+width: 100%;
+top: 100px;
+     }
+
+    @media screen and (max-width: 960px) {
+
+
+      .cate{
+     top: 300px;
+      }
+
+
+        .buscador-inteligente{
+            position: fixed;
+            right: 0px;
+            z-index: 2;
+            justify-content: end;
+             top: 0;
+            top: 70px;
+            width: 100%;
+            z-index: 1;
+            padding: 0px 20px 0px;
+            }
+            .menu-principal{
+                position: fixed;
+                 width: 100%;
+                 z-index: 2;
+              }
+            
+
+
+              .arregla.multiple{
+
+            
+                width: 100%;
+                left: 0px;
+                padding: 0px  0px;
+                margin: 0px;
+                top: 100px;
+              
+                 }
+
+
+
+                 .menu2{
+
+                  width: 100%;
+
+
+            
+                
+                 }
+                 
+    }
+    
+    
+
+    /* From uiverse.io by @Allyhere */
+.btn-login {
+  --clr-font-main: hsla(0 0% 20% / 100);
+  --btn-bg-1: rgb(14, 61, 105);
+  --btn-bg-2: hsla(217 100% 56% / 1);
+  --btn-bg-color: hsla(360 100% 100% / 1);
+  --radii: 0.5em;
+  cursor: pointer;
+  padding: 0.9em 1.4em;
+  min-width: 120px;
+  min-height: 44px;
+  font-size: var(--size, 1rem);
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-weight: 500;
+  transition: 0.8s;
+  background-size: 280% auto;
+  background-image: linear-gradient(325deg, var(--btn-bg-2) 0%, var(--btn-bg-1) 55%, var(--btn-bg-2) 90%);
+  border: none;
+  border-radius: var(--radii);
+  color: var(--btn-bg-color);
+  box-shadow: 0px 0px 20px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px rgba(175, 230, 255, 0.5), inset -4px -4px 8px rgba(19, 95, 216, 0.35);
+}
+
+.btn-login:hover {
+  background-position: right top;
+}
+
+.btn-login:is(:focus, :focus-within,:active) {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--btn-bg-color), 0 0 0 6px var(--btn-bg-2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-login {
+    transition: linear;
+  }
+}
+
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}

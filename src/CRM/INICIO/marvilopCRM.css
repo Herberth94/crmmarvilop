@@ -1,0 +1,305 @@
+.containerHome{
+    width: 100%;
+    height: 600px;
+    /* position: absolute; */
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-even
+    /* transform-origin: 0 50% */
+}
+.contenedor-iconos-info{
+    display: flex;
+
+}
+.contenedor-informacion-beneficios-caracteristicas {
+    margin-left: 40px;
+    width: 100%;
+}
+
+.plan{
+    margin-left: 45%;
+}
+
+.boton-contactanos-marvilop{
+    padding: 7px;
+    width: 40%;
+    background-color: #7b7a7a;
+    border-radius: 20px;
+    font-size: 20px;
+    border-color: #606060;
+    color: white;
+
+}
+.video-marvilop{
+    margin: 50px;
+}
+
+.subtitulo-info-beneficios{
+    margin: 15px;
+    text-align: justify;
+}
+
+
+
+.icono-marvilop{
+    margin-bottom: 20px;
+    background-color: #04192cbc;
+    border-radius: 50%;
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    border: 2px solid rgb(77, 88, 99);
+}
+.contenedor-icono-marvilop{
+    margin-top: 20px;
+}
+
+
+.contenedor-descubre-beneficios{
+    display: flex;
+    margin: 80px;
+}
+
+.container-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+}
+
+
+
+@media screen and (min-width: 300px) {
+    .letras-marvilop{
+        display: none;
+    }
+    iframe{
+        width:320px;
+        height:245px;
+    }
+    .logo-marvilop-azul{
+        margin-left: 15%;
+    }
+    .img-caracteristicas-marvilop{
+        display: none;
+    }
+    .info-marvilop{
+        line-height: 50px
+    }
+    .dropdown-menu.show {
+        width: 100%;
+    }
+
+}
+@media screen and (min-width: 600px) {
+    .info-marvilop{
+        line-height: 15px;
+        margin-top: 20px
+    }
+    iframe{
+        width:560px;
+        height:215px;
+    }
+
+}
+@media screen and (min-width: 800px) {
+    .letras-marvilop{
+        display: block;
+        width: 80%;
+        margin-left: 70px;
+       
+    }
+    iframe{
+        width:560px;
+        height:315px;
+    }
+    .logo-marvilop-azul{
+        width: 30%;
+        margin-left: 35%;
+    }
+    .informacion-caracteristicas-marvilop{
+        width: 60%;
+       
+    }
+    .img-caracteristicas-marvilop{
+        width: 70%;
+        display: block;
+    }
+    .info-marvilop{
+        line-height: 10px
+    }
+    .dropdown-menu.show {
+        width: auto;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1900px) {
+
+    a#nav-dropdown-dark-example {
+        font-size: 40px;
+    }
+    a.dropdown-item {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 4000px) {
+    /* banner home */
+    .containerHome{
+        justify-content: space-evenly
+    }
+    .contenedor-descubre-beneficios {
+        display: flex;
+        margin: 20px;
+    }
+        /* ******** desarrollamos software a la medida ********** */
+
+        .container-body-home{
+            margin: 100px;
+        }
+    
+        #titulo-software{
+            font-size: 70px;
+        }
+    
+        #titulo-necesidad{
+            font-size: 55px;
+        }
+        .titulo-caracteristicas{
+            font-size: 46px ;
+        }
+        .parrafo-caracteristicas{
+            font-size: 35px;
+        }
+
+}
+@media (max-width:1900px){
+    /* banner home */
+   .containerHome{
+       width: 90%;
+       height: 100%;
+       margin: 100px;
+       display: flex;
+       justify-content: space-evenly
+   }
+   .contenedor-descubre-beneficios{
+    display: flex;
+    margin: 80px;
+}
+.informacion-beneficios-caracteristicas {
+    margin-bottom: 65px;}
+
+     /* ******** desarrollamos software a la medida ********** */
+
+     .container-body-home{
+        margin: 100px;
+    }
+
+    #titulo-software{
+        font-size: 40px;
+    }
+
+    #titulo-necesidad{
+        font-size: 30px;
+    }
+    .titulo-caracteristicas{
+        font-size: 20px ;
+    }
+    .parrafo-caracteristicas{
+        font-size: 18px;
+    }
+
+
+}
+@media (max-width:900px){
+    /* HEADER HOME */
+    .containerHome{
+        width: 100%;
+        height: 330px;
+        margin-top: 80px;
+        justify-content: space-around;
+    }
+    .contenedor-descubre-beneficios {
+        display: flex;
+        margin: 20px;
+    }
+
+}
+
+
+/****** software a la medida ******/
+.container-body-home{
+    margin: 100px;
+
+}
+
+#titulo-software{
+    font-size: 40px;
+    text-align: center;
+}
+#titulo-necesidad{
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+}
+
+.contenedor-caracteristicas{
+    display: flex;
+    width: 90%;
+    margin-left: 100px;
+
+}
+.caracteristicas{
+    margin-left: 10px;
+}
+.icon-caracteristicas{
+    text-align: center;
+}
+h5{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 25px 50px 50px;
+}
+
+
+.sub-menu-parent { position: relative; }
+
+.sub-menu { 
+  visibility: hidden; /* hides sub-menu */
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+
+  z-index: -1;
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+
+.sub-menu-parent:focus .sub-menu,
+.sub-menu-parent:focus-within .sub-menu,
+.sub-menu-parent:hover .sub-menu {
+  visibility: visible; /* shows sub-menu */
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s; /* this removes the transition delay so the menu will be visible while the other styles transition */
+}
+
+
+
+nav a { color: rgb(255, 255, 255); display: block; padding: 0.5em 1em; text-decoration: none; }
+nav a:hover { color: rgb(7, 199, 0); }
+nav ul,
+nav ul li { list-style-type: none; padding: 0; margin: 0; }
+
+nav > ul { background: rgb(0, 0, 0); text-align: right; }
+nav > ul > li { display: inline-block; border-left: solid 1px rgb(0, 0, 0); }
+nav > ul > li:first-child { border-left: none; }
+
+.sub-menu {
+  background: rgb(0, 0, 0);
+}

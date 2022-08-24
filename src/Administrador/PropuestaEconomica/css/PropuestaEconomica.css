@@ -1,0 +1,371 @@
+h3{
+    text-align: center;
+}
+
+label{
+    color: #000000;
+    text-align: center;
+}
+
+.encabezado{
+    background-color: rgb(23, 23, 24);
+}
+.total{
+    background-color: rgb(75, 201, 3);
+}
+.green{
+
+    background-color: rgb(75, 201, 3);
+
+}
+
+.azul{
+    background-color: rgb(3, 171, 201);
+}
+.total-moneda{
+    background-color: aquamarine;
+}
+.total-mxn-usd{
+    background-color: rgb(182, 126, 126);
+}
+
+#lista-cotizaciones{
+    background-color: brown;
+}
+
+
+
+.full2 textarea{
+  display:block ;
+    width: 100%;
+}
+
+#txt2{
+
+    width: 100%;
+}
+
+#txt{
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+    text-align: justify;
+}
+
+
+
+/* From uiverse.io by @victoryamaykin */
+.switch2 {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 34px;
+    margin-top: 30px;
+   }
+   
+   .switch2 input {
+    display: none;
+   }
+   
+   .slider2 {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #3C3C3C;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+   }
+   
+   .slider2:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+   }
+   
+   input:checked + .slider2 {
+    background-color: #0E6EB8;
+   }
+   
+   input:focus + .slider2 {
+    box-shadow: 0 0 1px #2196F3;
+   }
+   
+   input:checked + .slider2:before {
+    -webkit-transform: translateX(232px);
+    -ms-transform: translateX(232px);
+    transform: translateX(232px);
+    -moz-transform: translateX(232px);
+    -o-transform: translateX(232px);
+}
+   
+   /*------ ADDED CSS ---------*/
+   .slider2:after {
+    content: '  Resumen Partidas';
+    color: white;
+    display: block;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-size: 10px;
+    font-family: Verdana, sans-serif;
+   }
+   
+   input:checked + .slider2:after {
+    content: '  Resumen Completo Partidas';
+   }
+   
+   /*--------- END --------*/
+  
+  
+   .contenedor {
+       width: 100%;
+       margin: 0 auto 1rem;
+       padding: 1.5rem;
+  }
+   .wrapper {
+       box-shadow: 0 0 20px 0 rgba(69, 90, 100, .7);
+       border-radius: 5px;
+  }
+
+
+  
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 34px;
+   }
+   
+   .switch input {
+    display: none;
+   }
+   
+   input{
+     padding: 0px  10px;
+  
+   }
+   .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #3C3C3C;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+   }
+   
+   .slider:before {
+    position: absolute;
+    content: " ";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+   }
+   
+  
+   input:checked + .slider {
+    background-color: #0E6EB8;
+   }
+   
+   input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+   }
+   
+   input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(85px);
+   }
+   
+   /*------ ADDED CSS ---------*/
+   .slider:after {
+    content: '-*Descuento ';
+    color: white;
+    display: block;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-size: 9px;
+    font-family: Verdana, sans-serif;
+   }
+   
+   input:checked + .slider:after {
+    content: ' Precio Unitario';
+   }
+   
+   /*--------- END --------*/
+  
+   @media screen and (max-width: 960px) {
+    .contenedor {
+        width: 100%;
+        margin: 0 auto 1rem;
+        padding:0rem;
+   }
+
+   }
+
+
+
+  
+   
+   @media screen and (min-width: 700px) {
+       .wrapper {
+           display: grid;
+           grid-template-columns: 1fr 2fr;
+      }
+  }
+   .servicios {
+       list-style: none;
+       text-align: center;
+  }
+   @media screen and (min-width: 700px) {
+       .servicios {
+           text-align: left;
+      }
+  }
+   .logo {
+       text-align: center;
+       margin-bottom: 1rem;
+  }
+   .info-empresa {
+       padding: 1rem;
+       background-color: var(--administrador-bg-color);
+  }
+   .info-empresa h3 {
+       text-align: center;
+  }
+
+  .divServicios {
+      color: white;
+  }
+   @media screen and (min-width: 700px) {
+       .info-empresa h3 {
+           text-align: left;
+           margin-bottom: 0.5rem;
+      }
+      
+}
+  @media screen and (max-width: 830px) {
+    .headerPropuesta{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .logoPropuesta{
+        width: 70%;
+    }
+    .divBuscadorInteligente{
+        top: 170px
+    }
+}
+.divServicios{
+    display: flex;
+}
+.serviciosPropuestaEc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@media screen and (max-width: 450px) {
+
+    .divServicios{
+        justify-content: flex-end
+    }
+
+}
+   .contacto {
+       padding: 1rem;
+       background-color: #eaeff1;
+  }
+   .contacto h3 {
+       margin-bottom: 1rem;
+  }
+   .formulario {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       grid-gap: 1.25rem;
+  }
+   .formulario label {
+       display: block;
+  }
+   .formulario button, .formulario input, .formulario textarea {
+       width: 100%;
+       padding: 1rem;
+       border: 1px solid #dcccd9;
+  }
+   .formulario textarea {
+       resize: none;
+  }
+   .full {
+       grid-column: 0.3333333333;
+  }
+   .boton-enviar {
+       background-color: #ccd7dc;
+       border: none;
+       border-radius: 5px;
+       text-transform: uppercase;
+       font-weight: bold;
+       cursor: pointer;
+  }
+   .boton-enviar:focus, .boton-enviar:hover {
+       background-color: #455a64;
+       color: #fff;
+       outline: 0;
+       transition: background-color 2s ease-out;
+  }
+   
+  
+                
+  /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
+  
+  @media (max-width: 1200px) {
+  
+  }
+  
+  /*=========================MEDIA QUERIES PANTALLA SM================================*/
+  
+  @media (max-width: 960px) {
+  
+
+     .re-Captcha{
+      margin-left: -20px;
+      width: 80%;
+    }
+  
+  
+     
+     
+  }
+  
+  /*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+  
+  @media (max-width: 768px) {
+  
+  
+  }
+  /*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+  @media (max-width: 576px) {
+    
+  }
+  
