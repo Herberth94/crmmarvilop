@@ -65,6 +65,7 @@ import Precios from "./CRM/INICIO/Precios";
 import Caracteristicas from "./CRM/INICIO/Caracteristicas";
 import Productos from "./CRM/INICIO/Productos";
 import HeaderInicio from "./CRM/INICIO/HeaderInicio";
+import Contacto from "./CRM/INICIO/Contacto";
 
 
 
@@ -86,6 +87,8 @@ function App() {
         <PublicRoutes  exact path="/" component={Productos} />
         <PublicRoutes  exact path="/precios" component={Precios} />
         <PublicRoutes  exact path="/login" component={Login} />
+        <PublicRoutes  exact path="/contacto" component={Contacto} />
+
 
     
 
