@@ -1,0 +1,255 @@
+
+#content1 { 
+    overflow:auto; 
+    width:100%; 
+    margin-top: 0; 
+    padding: 0px  50px  50px;
+  
+  } 
+
+  .icon-contact{
+    color: #ececec;
+  }
+  
+  .section{
+    background-color: #ffffff;
+  }
+  
+  #left1, #right1 { 
+    width: 100%; 
+    margin:5px; 
+    padding: 1em; 
+    /* height: 120px; */
+  
+  } 
+  #left1:hover, #right1:hover { 
+   
+      transform: translateY(-10px);
+      box-shadow: 0px 40px 29px -19px rgba(92, 92, 92, 0.9);
+  } 
+  
+  
+  #left1  {
+     float:left;
+  
+    background-color: #031a2b;
+   
+    box-shadow: 2px 2px 2px#0d0d0d;
+  
+  }
+  #right1 { 
+    float:right; 
+    background-color: #8a9e9b;
+    box-shadow: 2px 2px 2px#0d0d0d;
+  
+  
+  } 
+  
+  #left1 h2 , p h3{
+    text-align: center;
+    font-size: 18px;
+  
+  }
+  
+  #right1 h2, p ,h3{
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  #left1:hover{
+    background-color: #031a2b;
+  }
+  
+  #right1:hover { 
+     background-color: #ffc52f;
+  
+  } 
+  
+  
+  .servicio-ind a{
+  padding: 10px;
+  }
+  
+  
+  .iconify.iconify--jam{
+    color: #313130;
+    text-decoration: none;
+  
+  }
+  
+  .iconify.iconify--jam:hover{
+    color: #6d6e67;
+  
+    text-decoration: none;
+  
+  }
+  
+  
+  
+  #columnas{
+  
+    column-count:2;
+    column-gap:40px;
+    column-rule:none;
+    text-align: center; 
+    background-color: #aaaaaa;
+  
+  }
+  
+  .contacto2 h3{
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 25px;
+  margin-bottom: 10px;
+  }
+  
+    
+  
+  
+  div.form {
+    /*width: 100%;*/
+   background-color: #ffffff;
+   padding: 0px;
+   top: 30px;
+   
+   
+  }
+  
+  form .grupo {
+    position: relative;
+    margin: 30px;
+  
+  }
+  
+  input ,textarea{
+  
+    color: #c6c6c6;
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #ececec;
+  }
+  
+  
+  
+  input:focus ,textarea:focus {
+  
+    color: #0e0c0cc7;
+    background-color: #f7dd6c;
+    
+  
+  
+  }
+  
+  
+  
+  label {
+    color: var(--colorTextos);
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    transition: 0.5s ease all;
+    pointer-events: none;
+  }
+  
+  input:focus ~ label,
+  input:valid ~ label {
+    top: -14px;
+    font-size: 12px;
+    color: #0e0c0c;
+  }
+  
+  textarea:focus ~ label,
+  textarea:valid ~ label {
+    top: -14px;
+    font-size: 12px;
+    color: #0e0c0c;
+  }
+  
+  
+  
+  
+  .boton-formulario button {
+    position: relative;
+    font-family: "Urbanist", sans-serif;
+    background-color: #031a2b;
+    border: none;
+    display: block;
+    width: 90%;
+    margin: 30px auto;
+    color: #ececec;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+  
+    
+  }
+  
+  .boton-formulario button:hover{
+      font-weight: bold;
+      transform: translateY(-10px);
+      box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.616);
+      -webkit-transform: translateY(-10px);
+      -moz-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+      -o-transform: translateY(-10px);
+  }
+  
+  /*=======================  Menú  pantalla de escritorio ==================================*/
+  
+  @media screen and (max-width: 4000px) {
+    label{
+      font-size: 30px;
+    }
+  }
+  /* ******** DESKTOP de 12 pulgadas******* */
+  @media (max-width:1900px){
+    label{
+      font-size: 12px;
+    }
+    .container .box .title h1 {
+      font-size: 36px;
+    }
+  
+  }
+  
+  
+  
+  @media screen and (max-width: 960px) {
+  
+  
+    #content1 { 
+      width:100%; 
+      margin-top: 0; 
+      padding: 0;
+      left: 0;
+      right: 0;
+    
+    } 
+    
+    #right1 { 
+    width: 100%; 
+  
+  
+  } 
+  
+  #left1, #right1 { 
+    width: 100%; 
+    margin:0px; 
+    padding: 20px  20px 20px; 
+    margin: 2%;
+   
+  
+  } 
+  }
+  
+  .espacior{
+    position: absolute;
+      width: 100%;
+      height: 5%;
+    background-color: #0d0d0d;
+  }
