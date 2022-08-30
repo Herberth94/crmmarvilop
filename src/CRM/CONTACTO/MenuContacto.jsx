@@ -1,5 +1,4 @@
 
-import React from 'react'
 import { useState } from 'react';
 import { Icon } from '@iconify/react';
 import { Table} from 'react-super-responsive-table';
@@ -12,8 +11,6 @@ var color2 = "false";
 var color3 = "false";
 var color4 = "false";
 var color5 = "false";
-
-
 
 function   MenuContacto() {
       /*========================== Mostrar/Ocultar =========================*/
@@ -76,7 +73,9 @@ function   MenuContacto() {
   }
 
 
-
+const accessWhatapps = ()=>{
+  window.open("https://api.whatsapp.com/send?phone=%5Bnumero_de_telefono%5D&text=%5Btexto_del_mensaje");
+}
 
 
   return (
@@ -85,6 +84,8 @@ function   MenuContacto() {
 
       <div  className='titulo'>
       <h2>CONTACTO</h2>
+      <h2>CONTACTO</h2>
+      <h2 onClick={accessWhatapps}>Whatapps</h2>
       </div> 
 
         <div  className='table size'>

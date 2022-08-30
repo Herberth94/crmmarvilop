@@ -1,6 +1,9 @@
 import React from 'react'
 
 function HeaderInicio() {
+  const prueba =()=>{
+    window.open("https://api.whatsapp.com/send?phone=525540836541")
+  }
   return (
    
 <div className='header-menu'>
@@ -25,7 +28,7 @@ function HeaderInicio() {
        <a href="/contacto">Contacto</a>
        <ul class="sub-menu">
          <li><a href="#">Email</a></li>
-        
+         <li onClick={prueba}><a>Whatapps</a></li>
        </ul>
      </li>
      <li class="sub-menu-parent" tab-index="0">
